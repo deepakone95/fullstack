@@ -1,0 +1,10 @@
+extensions
+ES7 react&redux
+Auto rename tag
+prettier code formater
+
+
+Front end
+
+npx create-react-app frontend
+npm install react-bootstrap
