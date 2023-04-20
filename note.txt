@@ -8,3 +8,5 @@ Front end
 
 npx create-react-app frontend
 npm install react-bootstrap
+
+npm install react-router-dom react-router-bootstrap
