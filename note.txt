@@ -8,5 +8,38 @@ Front end
 
 npx create-react-app frontend
 npm install react-bootstrap
-
 npm install react-router-dom react-router-bootstrap
+import {Link} from 'react-bootstrap-dom'(to load the components instead of pages)
+
+npm install axios(to get api's)
+
+
+Backend
+
+Create venv
+
+pip install virtualenv
+
+virtualenv myenv(create env)
+
+myenv/scrips/activate
+pip insstall django
+pip install djangorestframework
+
+pip install django-cors-headers(django doesent allows front end so we need to set it up)
+
+add in apps 'corsheaders'
+
+MIDDLEWARE = [
+    ...,
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.common.CommonMiddleware",
+    ...,
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "https://example.com",
+    "https://sub.example.com",
+    "http://localhost:8080",
+    "http://127.0.0.1:9000",
+]

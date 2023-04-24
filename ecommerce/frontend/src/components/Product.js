@@ -1,14 +1,14 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-
+import { Link } from "react-router-dom";
 function Product({ product }) {
   return (
     <Card>
       <Card.Img src={product.image}></Card.Img>
       <Card.Body>
-        <a href={`product/${product._id}`}>
+        <Link to={`product/${product._id}`}>
           <Card.Text>{product.name}</Card.Text>
-        </a>
+        </Link>
         <Card.Text>${product.price}</Card.Text>
       </Card.Body>
     </Card>
